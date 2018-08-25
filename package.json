@@ -1,0 +1,35 @@
+{
+  "name": "myou-applet",
+  "version": "1.0.1",
+  "description": "Myou Engine applet as a React.js component.",
+  "main": "./init.js",
+  "scripts": {
+    "start": "node ./node_modules/webpack/bin/webpack.js -w",
+    "build": "node ./node_modules/webpack/bin/webpack.js",
+    "prepublish": "node ./node_modules/webpack/bin/webpack.js  --env.prod"
+  },
+  "dependencies": {
+    "coffee-loader": "^0.9.0",
+    "coffeescript": "^2.2.4",
+    "file-loader": "^0.8.5",
+    "myou-engine": "github:myou-engine/myou-engine"
+  },
+  "devDependencies": {
+    "webpack": "^3.10.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "myou",
+    "react",
+    "component",
+    "applet",
+    "canvas",
+    "game",
+    "engine"
+  ],
+  "author": "Julio Manuel López <julio@pixelements.net> (http://pixelements.net)",
+  "license": "SEE LICENSE IN <LICENSE>"
+}
