@@ -1,0 +1,18 @@
+/node_modules/
+/_cache/*
+seafile-ignore.txt
+
+#temporal files
+*~
+.directory
+*.orig
+*.rej
+
+#log files
+npm-debug.log
+
+#local files
+local/
+*.local.*
+Thumbs.db
+*.local
